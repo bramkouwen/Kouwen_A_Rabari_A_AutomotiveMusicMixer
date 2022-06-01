@@ -1,1 +1,105 @@
-main.css
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	border: 0px;
+	background-image:url(../images/car-interior.jpg);
+	background-repeat:repeat;
+	background-size: 100%;
+	color:#FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+}
+
+#music-boards {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.music-icons, .player-board {
+	margin-top: 40px;
+	height: 300px;
+	display: inline-block;
+	background-color: #333;
+	border-radius: 40px;
+	color: inherit;
+	overflow: hidden;
+}
+
+.music-icons {
+	width: 900px;
+	height: 150px;
+	margin-right: 20px;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#guitar {
+	width:2%;
+}
+
+.player-board { 
+	margin-top: 60px;
+	margin-right: 20px;
+	width:300px; 
+	height: 200px;
+	background-color: #000;
+	background-repeat: no-repeat;
+}
+
+#icon-board {
+	text-align: center;
+}
+
+.music-icon {
+	width: 3%;
+	display: inline;
+	padding: 40px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.play-area {
+	width: 17%;
+    height: 40%;
+    border: 1px dashed white;
+    float: left;
+	margin-left: 6px;
+	margin-top: 12px;
+}
+
+.play-area  img {
+	width: 80% !important;
+	float: none;
+	position: absolute;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	top: 20px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+header h1 {
+	font-size: 2em;
+    letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+header p, footer p { font-size: 1em; letter-spacing: 2px; margin: 10px 0 }
+
+footer {
+	position: relative;
+	top: 65px;
+	width:300px;
+	margin: 0px auto;
+	text-align: center;
+}
+

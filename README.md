@@ -3,8 +3,7 @@ Automotive Music Mixer
 
 ## Collaborators 
 
-Abram Kouwen  (bramkouwen)
-Aman Rabari   (Aman1072)
+Abram Kouwen  (bramkouwen), Aman Rabari   (Aman1072)
 
 ## Project description
 In this project we created a intaeractive music mixer. The Music Mixer that is based on a car's infotainment system. It will be designed so that the music icons can be dragged to the car's interior infotainment screen and then they will start playing the icon's music. Ten Music icons will be shown in the car's windshield. The speakers in the car will show that the music is playing either through movement or wave lines.

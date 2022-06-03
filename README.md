@@ -1,14 +1,19 @@
 # Project Name
 Automotive Music Mixer 
 
+## Collaborators 
+
+Abram Kouwen  (bramkouwen)
+Aman Rabari   (Aman1072)
+
 ## Project description
-This project is for Interactive Music Mixer homework assignment for the MMED-1055-01-22S Multimedia Authoring 2 class. For the assignment we will create a Interactive Music Mixer that is based on a car's infotainment system. It will be designed so that the music icons can be dragged to the car's interior infotainment screen and then they will start playing the icon's music. Ten Music icons will be shown in the car's windshield. 
+In this project we created a intaeractive music mixer. The Music Mixer that is based on a car's infotainment system. It will be designed so that the music icons can be dragged to the car's interior infotainment screen and then they will start playing the icon's music. Ten Music icons will be shown in the car's windshield. The speakers in the car will show that the music is playing either through movement or wave lines.
 
 ## Design
 Automotive interior radio/infotainment system that plays your music  
  
 
-## Icons 
+## Icons/Sound 
 - Microphone (voice)
 - Speaker (beats)
 - Acoustic Guitar 

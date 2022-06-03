@@ -3,8 +3,8 @@
 body {
 	margin: 0px;
 	border: 0px;
-	background-image:url(../images/car-interior.jpg);
-	background-repeat:repeat;
+	background-image:url(../images/music-mixer-background.svg);
+	background-repeat: repeat;
 	background-size: 100%;
 	color:#FFF;
 	font-family: 'Roboto', sans-serif;
@@ -17,9 +17,9 @@ body {
 	text-align: center;
 }
 
-.music-icons, .player-board {
-	margin-top: 40px;
-	height: 300px;
+.music-icons, .play-board {
+	margin-top: 60px;
+	height: 100px;
 	display: inline-block;
 	background-color: #333;
 	border-radius: 40px;
@@ -29,7 +29,7 @@ body {
 
 .music-icons {
 	width: 900px;
-	height: 150px;
+	height: 120px;
 	margin-right: 20px;
 	padding: 0;
 	margin-bottom: 0;
@@ -39,10 +39,10 @@ body {
 	width:2%;
 }
 
-.player-board { 
-	margin-top: 60px;
+.play-board { 
+	margin-top: 68px;
 	margin-right: 20px;
-	width:300px; 
+	width:320px; 
 	height: 200px;
 	background-color: #000;
 	background-repeat: no-repeat;
@@ -52,28 +52,35 @@ body {
 	text-align: center;
 }
 
-.music-icon {
+.icon {
 	width: 3%;
 	display: inline;
 	padding: 40px;
-	margin-top: 10px;
 	cursor: pointer;
 }
 
 .play-area {
 	width: 17%;
-    height: 40%;
+    height: 38%;
     border: 1px dashed white;
     float: left;
-	margin-left: 6px;
+	margin-left: 7px;
 	margin-top: 12px;
 }
 
-.play-area  img {
-	width: 80% !important;
-	float: none;
-	position: absolute;
-	padding: 0;
+.speakers {
+	display: inline;
+}
+
+#speaker-one {
+	width: 6%;
+	margin-left: 60px;
+}
+
+#speaker-two {
+	float: right;
+	width: 6%;
+	margin-right: 60px;
 }
 
 header {

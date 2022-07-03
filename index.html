@@ -8,50 +8,78 @@
 </head>
 <body>
 	<header id="headLine">
-		<h1>Automotive Music Player</h1>
-		<p>Play Some Music</p>
+		<div id="head">
+			<img id="logo" src="images/logo.svg" alt="logo">
+			<h1>Automotive Music Player</h1>
+	    </div>
+		<p>Drag the instruments to the screen to play the Music</p>
 	</header>
+	<main>
+
+		<h2 class="hidden">Audio Tracks</h2>
+		<audio src="audio/piano.mp3"></audio>
+		<audio src="audio/drum.mp3"></audio>
+		<audio src="audio/e-guitar.mp3"></audio>
+		<audio src="audio/guitar.mp3"></audio>
+		<audio src="audio/microphone.mp3"></audio>
+		<audio src="audio/piano.mp3"></audio>
+		<audio src="audio/saxophone.mp3"></audio>
+		<audio src="audio/trumpet.mp3"></audio>
+		<audio src="audio/violin.mp3"></audio>
+		<audio src="audio/xylophone.mp3"></audio>
+		<audio src="audio/beats.mp3"></audio>
 
 	<section id="icon-board">
-
+			<svg id="sound" class="sound_waves_left" data-name="Sound Waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 226">
+				<path id="wave" d="M180.47,29s28.81,117.28-78.19,168.72" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 22.63px;"/>
+				<path id="wave-2" data-name="wave" d="M137.12,31.08s23.52,95.75-63.83,137.75" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 18px;"/>
+				<path id="wave-3" data-name="wave" d="M96.49,33s17.76,72.31-48.21,104.02" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 13.64px;"/>
+				<path id="wave-4" data-name="wave" d="M60.59,32.42s11.53,46.95-31.3,67.55" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;"/>
+			</svg>
 		<div class="music-icons">
-			<img  draggable src="images/microphone_icon.svg" class="icon" alt="microphone">
-			<img draggable src="images/speaker_icon.svg" class="icon" alt="speaker">
-			<img id="guitar" draggable src="images/guitar_icon.svg" class="icon" alt="guitar">
-			<img draggable src="images/piano_icon.svg" class="icon" alt="piano">
-			<img id="guitar" draggable src="images/electric_guitar_icon.svg" class="icon" alt="electric guitar">
-			<img draggable src="images/xylophone_icon.svg" class="icon" alt="xylophone">
-			<img draggable src="images/drum_icon.svg" class="icon" alt="drum">
-			<img draggable src="images/saxophone_icon.svg" class="icon" alt="saxophone">
-			<img draggable src="images/trumpet_icon.svg" class="icon" alt="trumpet">
+			<img id="microphone" data-trackref="microphone" draggable src="images/microphone_icon.svg" class="track-ref" alt="microphone">
+			<img id="speaker" data-trackref="beats" draggable src="images/speaker_icon.svg" class="track-ref" alt="speaker">
+			<img id="guitar" data-trackref="guitar" draggable src="images/guitar_icon.svg" class="track-ref" alt="guitar">
+			<img id="piano" data-trackref="piano" draggable src="images/piano_icon.svg" class="track-ref" alt="piano">
+			<img id="eGuitar" data-trackref="e-guitar" draggable src="images/electric_guitar_icon.svg" class="track-ref" alt="electric guitar">
+			<img id="xylophone" data-trackref="xylophone" draggable src="images/xylophone_icon.svg" class="track-ref" alt="xylophone">
+			<img id="drum" data-trackref="drum" draggable src="images/drum_icon.svg" class="track-ref" alt="drum">
+			<img id="saxophone" data-trackref="saxophone" draggable src="images/saxophone_icon.svg" class="track-ref" alt="saxophone">
+			<img id="trumpet" data-trackref="trumpet" draggable src="images/trumpet_icon.svg" class="track-ref" alt="trumpet">
+			<img id="violin" data-trackref="violin" draggable src="images/violin_icon.svg" class="track-ref" alt="violin">
 		</div>
-	
-	</section>
-
-	<section id="music-boards">
-
-		<div class="play-board">
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
-			<div class="play-area"></div>
+		<svg id="sound-1" class="sound_waves_right" data-name="Sound Waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 226">
+			<path id="wave" d="M32.81,29S4.01,146.28,111,197.72" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 22.63px;"/>
+			<path id="wave-2" data-name="wave" d="M76.17,31.08s-23.52,95.75,63.83,137.75" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 18px;"/>
+			<path id="wave-3" data-name="wave" d="M116.79,33s-17.76,72.31,48.21,104.02" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 13.64px;"/>
+			<path id="wave-4" data-name="wave" d="M152.7,32.42s-11.53,46.95,31.3,67.55" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;"/>
+		</svg>
+		<div id="music-boards">
+			<div class="player-board">
+					<div class="play-area"></div>
+					<div class="play-area"></div>
+					<div class="play-area"></div>
+					<div class="play-area"></div>
+					<div class="play-area"></div>
+					<div class="audio-controls">
+						<input type="range" id="volume-control">
+					</div>
+			</div>	
 		</div>
+		<svg id="sound-2" class="sound_waves_left" data-name="Sound Waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 226">
+			<path id="wave" d="M180.47,197.72S209.28,80.44,102.28,29" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 22.63px;"/>
+			<path id="wave-2" data-name="wave" d="M137.12,195.64s23.52-95.75-63.83-137.75" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 18px;"/>
+			<path id="wave-3" data-name="wave" d="M96.49,193.72s17.76-72.31-48.21-104.02" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 13.64px;"/>
+			<path id="wave-4" data-name="wave" d="M60.59,194.3s11.53-46.95-31.3-67.55" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;"/>
+		</svg>
+		<svg id="sound-3" class="sound_waves_right" data-name="Sound Waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 226">
+			<path id="wave" d="M32.81,197.72S4.01,80.44,111,29" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 22.63px;"/>
+			<path id="wave-2" data-name="wave" d="M76.17,195.64s-23.52-95.75,63.83-137.75" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 18px;"/>
+			<path id="wave-3" data-name="wave" d="M116.79,193.72s-17.76-72.31,48.21-104.02" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 13.64px;"/>
+			<path id="wave-4" data-name="wave" d="M152.7,194.3s-11.53-46.95,31.3-67.55" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;"/>
+		</svg>
 	</section>
-
-	<section class="speakers">
-		<div>
-			<img src="images/speaker.svg" id="speaker-one">
-			<img src="images/speaker.svg" id="speaker-two">
-		</div>
-	</section>
-		
-		
+	</main>
 	
 	<footer>
 		

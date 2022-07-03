@@ -6,8 +6,8 @@
         playBut = document.getElementById('play-button'),
         rewindBut = document.getElementById('rewind-button');
         playBoard = document.querySelector(".player-board"), 
-	    instruments = document.querySelectorAll('.music-icons img'),
-	    playArea = document.querySelectorAll('.play-area');
+        instruments = document.querySelectorAll('.music-icons img'),
+        playArea = document.querySelectorAll('.play-area');
     
     let volume = document.querySelector("#volume-control");
     volume.addEventListener("change", function(e) {

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Sound_Waves" data-name="Sound Waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 226">
+  <path id="wave" d="M32.81,29S4.01,146.28,111,197.72" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 22.63px;"/>
+  <path id="wave-2" data-name="wave" d="M76.17,31.08s-23.52,95.75,63.83,137.75" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 18px;"/>
+  <path id="wave-3" data-name="wave" d="M116.79,33s-17.76,72.31,48.21,104.02" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 13.64px;"/>
+  <path id="wave-4" data-name="wave" d="M152.7,32.42s-11.53,46.95,31.3,67.55" style="fill: none; stroke: #231f20; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;"/>
+</svg>

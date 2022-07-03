@@ -3,84 +3,253 @@
 body {
 	margin: 0px;
 	border: 0px;
-	background-image:url(../images/music-mixer-background.svg);
-	background-repeat: repeat;
+	background-image:url(../images/car-interior.jpg);
+	background-repeat:repeat;
 	background-size: 100%;
 	color:#FFF;
 	font-family: 'Roboto', sans-serif;
 	font-size:16px;
 }
 
+#logo {
+	width: 15%;
+	float: left;
+	margin-top: 2px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+#sound {
+	display: none;
+}
+
+#sound-1 {
+	display: none;
+}
+
+#sound-2 {
+	display: none;
+}
+
+#sound-3 {
+	display: none;
+}
+
+.sound_waves_left {
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+}
+
+.sound_waves_right {
+	width: 250px;
+	float: right;
+	margin-right: 20px;
+}
+
+#wave {
+	opacity: 100;
+    animation-name: opacitychange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+    display: block;
+}
+
+#wave-2 {
+	opacity: 100;
+    animation-name: opacitychange;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+    display: block;
+}
+
+#wave-3 {
+	opacity: 100;
+    animation-name: opacitychange;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+    display: block;
+}
+
+#wave-4 {
+	opacity: 100;
+    animation-name: opacitychange;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+    display: block;
+}
+
+
+@keyframes opacitychange {
+    from { 
+        opacity: 100;
+    }
+    to { 
+        opacity: 0;
+    }
+}
+
 #music-boards {
 	width: 100%;
 	display: block;
-	text-align: center;
+	margin-top: 0;
 }
 
-.music-icons, .play-board {
-	margin-top: 60px;
-	height: 100px;
+#volume {
+	padding-top: 20px;
+}
+
+.hidden { display: none; }
+
+.music-icons, .player-board {
+	margin-top: 70px;
 	display: inline-block;
 	background-color: #333;
 	border-radius: 40px;
 	color: inherit;
 	overflow: hidden;
+	margin-bottom: 0;
 }
 
 .music-icons {
-	width: 900px;
-	height: 120px;
-	margin-right: 20px;
-	padding: 0;
-	margin-bottom: 0;
+	width: 850px;
+	height: 100px;
+	margin-right: 10px;
+	padding-bottom: 40px;
+	position: relative;
 }
 
 #guitar {
 	width:2%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
+	cursor: pointer;
 }
 
-.play-board { 
-	margin-top: 68px;
+#piano {
+	margin-bottom: 40px;
+	width: 4%;
+	display: inline;
+	padding: 1 0px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#xylophone {
+	margin-bottom: 25px;
+	width: 4%;
+	display: inline;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#trumpet {
+	margin-bottom: 30px;
+	width: 4%;
+	display: inline;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#eGuitar {
+	width:2%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.player-board { 
+	margin-top: 40px;
 	margin-right: 20px;
-	width:320px; 
+	width:300px; 
 	height: 200px;
 	background-color: #000;
 	background-repeat: no-repeat;
+}
+
+.audio-controls input { 
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
 }
 
 #icon-board {
 	text-align: center;
 }
 
-.icon {
+#drum {
 	width: 3%;
 	display: inline;
-	padding: 40px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#violin {
+	width: 2%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#speaker {
+	width: 3%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#microphone {
+	width: 3%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#saxophone {
+	width: 3%;
+	display: inline;
+	padding: 30px;
+	margin-top: 20px;
 	cursor: pointer;
 }
 
 .play-area {
-	width: 17%;
-    height: 38%;
-    border: 1px dashed white;
+	width: 50px;
+    height: 80px;
+    border: 1px solid white;
+	border-radius: 20px;
     float: left;
-	margin-left: 7px;
-	margin-top: 12px;
+	margin-left: 6px;
+	margin-top: 30px;
 }
 
-.speakers {
-	display: inline;
-}
-
-#speaker-one {
-	width: 6%;
-	margin-left: 60px;
-}
-
-#speaker-two {
-	float: right;
-	width: 6%;
-	margin-right: 60px;
+.play-area img {
+	display: block !important;
+	width: 1.2% !important;
+	padding: 0px !important;
+	margin-left: 15px;
+	position: absolute;
 }
 
 header {
@@ -100,13 +269,6 @@ header h1 {
 	margin: 10px 0;
 }
 
-header p, footer p { font-size: 1em; letter-spacing: 2px; margin: 10px 0 }
-
-footer {
-	position: relative;
-	top: 65px;
-	width:300px;
-	margin: 0px auto;
-	text-align: center;
+header p { 
+	font-size: 1em; letter-spacing: 2px; margin: 10px 0 
 }
-

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 72.8 84.3" style="enable-background:new 0 0 72.8 84.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.71;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2.0245;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:1.9346;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.41;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:1.25;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:1.32;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:1.32;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2_00000013177015059945768930000005764999793651080843_">
+	<g id="icons">
+		<g id="Drum">
+			<polygon class="st0" points="42.4,39 42.2,41.4 23.1,40.4 23.2,38.1 			"/>
+			<polygon class="st0" points="43.1,24.6 42.5,36.9 23.3,36 23.9,23.6 			"/>
+			<polygon class="st0" points="43.3,20.1 43.2,22.5 24,21.6 24.2,19.1 			"/>
+			<polygon class="st0" points="65.6,21.6 46.4,22.5 46.3,20.1 65.5,19.1 			"/>
+			<polygon class="st0" points="66.3,36 47.2,36.9 46.5,24.6 65.7,23.7 			"/>
+			<polygon class="st0" points="66.6,40.5 47.4,41.4 47.3,39 66.4,38.1 			"/>
+			<circle id="main_drum" class="st1" cx="45.2" cy="63.5" r="19.5"/>
+			<circle id="main_drum_ring" class="st2" cx="45.3" cy="63.6" r="16.8"/>
+			<path id="main_drum_leg" class="st3" d="M63.6,68.8c0,0,6.4,9.4,6.4,11.3"/>
+			<circle id="main_drum_leg-2" class="st0" cx="70.3" cy="81.8" r="2.2"/>
+			<path id="main_drum_leg-3" class="st4" d="M27.3,69.8c0,0-6.4,8.5-6.4,10.3"/>
+			<circle id="main_drum_leg-4" class="st0" cx="20.6" cy="81.8" r="2.2"/>
+			<line id="cimbal_leg" class="st5" x1="13.3" y1="49.3" x2="2.3" y2="60.2"/>
+			<circle id="simbal_leg" class="st0" cx="1.9" cy="60.5" r="1.6"/>
+			<line id="cymbal_leg" class="st6" x1="25.5" y1="53.8" x2="20.7" y2="49.3"/>
+			<circle id="stand_support" class="st0" cx="16.8" cy="46.9" r="2.3"/>
+			<polyline id="cimbal_support" class="st7" points="8.6,54.1 16.9,51.4 25.2,53.7 			"/>
+			<line id="cimbal_stand" class="st8" x1="17" y1="42.3" x2="17" y2="14.6"/>
+			
+				<ellipse id="cimbal" transform="matrix(0.5564 -0.8309 0.8309 0.5564 2.2809 18.7905)" class="st9" cx="18.7" cy="7.3" rx="5.1" ry="10"/>
+		</g>
+	</g>
+</g>
+</svg>

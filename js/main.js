@@ -3,16 +3,31 @@
     let mainHeadline = document.querySelector('#main-headline');
         theAudio = document.querySelectorAll('audio'),
         theThumbs = document.querySelectorAll('img'),
-        playBut = document.getElementById('play-button'),
-        rewindBut = document.getElementById('rewind-button');
+        playBut = document.getElementById('playAudio'),
+        rewindBut = document.getElementById('rewindAudio'),
+        pauseBut = document.getElementById('pauseAudio'),
         playBoard = document.querySelector(".player-board"), 
         instruments = document.querySelectorAll('.music-icons img'),
         playArea = document.querySelectorAll('.play-area');
+
+    let playFlag = false;
     
     let volume = document.querySelector("#volume-control");
     volume.addEventListener("change", function(e) {
-    theAudio.volume = e.currentTarget.value / 100;
+        theAudio.volume = e.currentTarget.value / 100;
     })
+
+    function loadAudioTrack() {
+        if (playFlag) {
+            theAudio = new Audio(`audio/${this.dataset.trackref}.mp3`);
+            theAudio.load();
+            theAudio.currentTime = 0;
+            theAudio.play();
+            theAudio.loop = true;
+        } else {
+            console.log("do not play");
+        }
+    }
 
     function loadAudioTrack() {
         theAudio = new Audio(`audio/${this.dataset.trackref}.mp3`);
@@ -43,12 +58,17 @@
         event.preventDefault();
     }
     
-    function allowDrop(event) {
+   
+    function allowDrop (event) {
         event.preventDefault();
-    
-        let droppedElId = event.dataTransfer.getData('draggedEl');
-    
-        this.appendChild(document.querySelector(`#${droppedElId}`));
+        playFlag = false;
+        if (this.childNodes.length < 1) {
+            let droppedElId = event.dataTransfer.getData('draggedEl');
+            this.appendChild(document.querySelector(`#${droppedElId}`));
+            playFlag = true;
+        } else {
+            console.log("Space Occupied")
+        }
     }
 
     function playAudio() {
